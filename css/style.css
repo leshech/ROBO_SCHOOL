@@ -108,6 +108,11 @@ table {
   }
 
   .header_list {
+    font-family: 'Jost';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
     display: flex;
     flex-wrap: wrap;
   }
@@ -133,6 +138,15 @@ table {
 
   .header__tel {
     margin-right: 100px;
+  }
+
+  .header__tel-link {
+    font-family: 'Jost';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
   }
 
 /* Header styles end */
