@@ -78,3 +78,73 @@ table {
     box-sizing: inherit ;
   }
 
+  .body {
+    font-family: 'Jost';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #141024;
+  }
+
+  /* Header styles start */
+  
+
+  .header {
+    text-align: center;
+    padding-top: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .header__logo {
+    margin-left: 100px;
+  }
+
+  .header_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header__item {
+    margin-right: 82px;
+  }
+
+  .header__item:last-child {
+    margin-right: 0;
+  }
+  
+  .header__link {
+    font-size: 20px;
+    line-height: 160%;
+    color: #ffff;
+    text-decoration: none;
+  }
+
+  .header__link:hover, .header__link:focus, .header__link:active {
+    opacity: .75;
+  }
+
+  .header__tel {
+    margin-right: 100px;
+  }
+
+/* Header styles end */
+
+/* Intro styles start */
+
+.intro {
+  height: 100vh;
+  background: url(../img/intro-bg.jpg)  no-repeat center;
+  block-size: cover;
+}
+
+/* Intro styles end */
+
+
